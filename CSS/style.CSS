@@ -1,0 +1,139 @@
+.inline-block {
+    display: inline-block;
+    vertical-align: top;
+    padding: 10px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  .logo {
+    padding: 10px;
+    text-align: center;
+  }
+
+  p1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    width: 75%;
+    padding: 10px;
+  }
+
+  h1{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+  }
+
+  .heroTitle{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: normal;
+  }
+
+  button{
+    height: 50px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: normal;
+  }
+  .navigation{
+    padding: 10px;
+    width: 98%;
+    display: flex;
+    background-color: #dadaef;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  .content{
+    width: 300px;
+    margin: 0 auto;
+    justify-content: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  .footerzzz{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  ul{
+  margin-left: auto;
+  display: inline-block;
+  vertical-align: top;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+  
+}
+
+.navfooter{
+  padding: 10px;
+  width: 98%;
+  display: flex;
+  background-color: #dadaef;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  display: flex;
+  justify-content: center;
+}
+
+.P1{
+    width: 300px;
+    height: 300px;
+    padding: 50px;
+    margin: 10px;
+    font-family:  'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align:center;
+    background-color: #dadaef;
+    display: inline-block;
+    justify-content: flex-start;
+    align-items: flex-start;
+
+}
+
+  .P2{
+      width: 300px;
+      padding: 50px;
+      margin: 10px;
+      font-family:  'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      text-align:center;
+      background-color: #dadaef;
+      display: inline-block;
+      justify-content: flex-start;
+}
+.flexcontainer{
+  display: flex;
+  justify-content:center;
+}
+
+.grid-container{
+display: grid;
+}
+
+.heroSection{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.heroTitle{
+  margin: 0px !important;
+
+}
+
+.myWork{
+  text-align: center;
+}
+
+.mySkills{
+  text-align: center;
+}
+
+@media only screen and (max-width: 600px){
+  
+  .flexcontainer{
+      flex-direction: column;
+  }
+  .P1 {
+      width: 100%;
+      height: auto;
+      text-align: center;
+      background-color: #dadaef;
+  }
+  .P2 {
+    width: 100%;
+    height: auto;
+    text-align: center;
+    background-color: #dadaef;
+} 
+
+}
